@@ -1,0 +1,5 @@
+node{
+    stage('code_pull'){
+        git 'https://github.com/Biswajeet-Devops/gitdemo1.git'
+    }
+}
